@@ -8,9 +8,9 @@
     <link rel="shortcut icon" href="MasterPage/Favicon.ico" type="image/x-icon" />
 
     <%--ENLAZADOS--%>
-    <script type="text/javascript" src="librerías_externas/jQuery.js"></script>
-    <script type="text/javascript" src="librerías_externas/Bootstrap.js"></script>
-    <link rel="stylesheet" type="text/css" href="librerías_externas/Bootstrap.css" />
+    <script type="text/javascript" src="librerias_externas/jQuery.js"></script>
+    <script type="text/javascript" src="librerias_externas/Bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="librerias_externas/Bootstrap.css" />
 
     <link rel="stylesheet" type="text/css" href="MasterPage/General.css" />
     <link rel="stylesheet" type="text/css" href="MasterPage/RedesSociales.css" />
