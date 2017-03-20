@@ -1,0 +1,16 @@
+﻿#Opciones{
+    font-family: Arial;
+    width: 425px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#Opciones a {
+    color: #0174DF;
+}
+
+#Opciones a:hover {
+    color: #81DAF5;
+}

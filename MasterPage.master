@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <link rel="shortcut icon" href="MasterPage/Favicon.ico" type="image/x-icon" />
+
+    <%--ENLAZADOS--%>
+    <script type="text/javascript" src="Librerías externas/jQuery.js"></script>
+    <script type="text/javascript" src="Librerías externas/Bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="Librerías externas/Bootstrap.css" />
+
+    <link rel="stylesheet" type="text/css" href="MasterPage/General.css" />
+    <link rel="stylesheet" type="text/css" href="MasterPage/RedesSociales.css" />
+    <link rel="stylesheet" type="text/css" href="MasterPage/Menu.css" />
+
+    <link rel="stylesheet" type="text/css" href="Inicio/Carrusel.css" />
+    <script type="text/javascript" src="Inicio/Carrusel.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="Vehiculos/Combis/Lista.css" />
+
+    <link rel="stylesheet" type="text/css" href="Presupuesto/General.css" />
+
+    <link rel="stylesheet" type="text/css" href="Nosotros/General.css" />
+
+    <link rel="stylesheet" type="text/css" href="Contacto/General.css" />
+    
+    <%--FIN ENLAZADOS--%>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CantalupiBus - Viaje confortablemente</title>
+</head>
+
+<body>
+    <form id="Formulario" runat="server">
+
+        <div id="Cabecera">
+
+            <%--(LOGO)--%>
+            <div id="Logo">
+                <a href="../Inicio.aspx">
+                    <img src="../MasterPage/Logo.png" /></a>
+            </div>
+            <%--(FIN LOGO)--%>
+
+
+            <%--(REDES SOCIALES)--%>
+            <div class="RedesSociales">
+                <h6>SEGUÍNOS EN:</h6>
+                <ul class="list-social-bar clearfix">
+                    <li><a target="_blank" href="https://www.facebook.com/cantalupibus" onclick="_gaq.push(['_trackEvent', 'Connect With KapanLagi.com_Top', 'Click', 'Facebook']);" class="fb"></a></li>
+                    <li><a target="_blank" href="https://twitter.com/cantalupibus" onclick="_gaq.push(['_trackEvent', 'Connect With KapanLagi.com_Top', 'Click', 'Twitter']);" class="twitter"></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/cantalupibus" onclick="_gaq.push(['_trackEvent', 'Connect With KapanLagi.com_Top', 'Click', 'Youtube']);" class="youtube"></a></li>
+                    <li><a target="_blank" href="https://www.google.com/+cantalupibus" onclick="_gaq.push(['_trackEvent', 'Connect With KapanLagi.com_Top', 'Click', 'Google+']);" class="gplus"></a></li>
+                </ul>
+            </div>
+            <%--(FIN REDES SOCIALES)--%>
+
+            <br />
+
+
+
+            <%--(MENU)--%>
+            <div id="container">
+                <ul id="menu">
+                    <li class="activo"><a href="/Inicio.aspx">Inicio</a></li>
+                    <li><a>Vehículos</a>
+                        <ul>
+                            <li><a href="/Vehiculos/Minibuses.aspx">Minibuses</a></li>
+                            <li><a href="/Vehiculos/Combis.aspx">Combis</a></li>
+                        </ul>
+                    </li>
+                    <li id="presup"><a href="/Presupuesto.aspx" class="Presupuesto">Presupuesto</a></li>
+                    <li><a>Nosotros</a>
+                        <ul>
+                            <li><a href="/Nosotros/Mision.aspx">Misión</a></li>
+                            <li><a href="/Nosotros/Vision.aspx">Visión</a></li>
+                            <li><a href="/Nosotros/Valores.aspx">Valores</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/Contacto.aspx">Contacto</a></li>
+                    <li><a href="/Admin.aspx">Administración</a></li>
+                </ul>
+
+            </div>
+            <%--FIN MENU--%>
+        </div>
+
+
+
+
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+
+    </form>
+</body>
+</html>

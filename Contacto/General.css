@@ -1,0 +1,16 @@
+﻿#Contenedor{
+    margin: auto;
+	width: auto;
+}
+
+#Texto{
+    margin-left: 50px;
+    width: auto;
+    float: left;
+}
+
+#Mapa{
+    margin-right: 50px;
+    width: auto;
+    float: right;
+}

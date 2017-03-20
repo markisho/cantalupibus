@@ -1,0 +1,22 @@
+﻿#CajasLogin{
+    width: 400px;
+    margin: auto;
+}
+
+#BotonEntrar{
+    margin: auto;
+    width: 57px;
+    cursor: default;
+}
+
+#LabelError{
+    text-align: center;
+    font-weight: bold;
+}
+
+#SalirAdmin{
+    width: 64px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}

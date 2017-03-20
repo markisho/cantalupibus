@@ -1,0 +1,25 @@
+﻿/*(DEFINICION DE NUEVA FUENTE ROBOTO)*/
+@font-face {
+    font-family: "Roboto";
+    src: url('../Recursos/Fuente Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+/*(FUENTE ROBOTO GLOBAL)*/
+html {
+    font-family: "Roboto";
+}
+
+/*(CUERPO BODY)*/
+body {
+    background: url( Fondo.jpg ) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*(LOGO DE CABECERA)*/
+#Logo {
+    width: auto;
+    float: left;
+}

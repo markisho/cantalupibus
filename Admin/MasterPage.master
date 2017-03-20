@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Admin_Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <link rel="shortcut icon" href="../MasterPage/Favicon.ico" type="image/x-icon" />
+
+    <%--ENLAZADOS--%>
+    <link rel="stylesheet" type="text/css" href="General.css" />
+    <link rel="stylesheet" type="text/css" href="MasterPage/General.css" />
+    <link rel="stylesheet" type="text/css" href="Login/General.css" />
+    <link rel="stylesheet" type="text/css" href="GridViews/Formato.css" />
+    <link rel="stylesheet" type="text/css" href="Informes/General.css" />
+    <script type="text/javascript" src="../Librerías externas/jQuery.js"></script>
+    <script type="text/javascript" src="../Librerías externas/jQuery.QuickSearch.js"></script>
+    <script type="text/javascript" src="../Librerías externas/jQuery.Validate.js"></script>
+    <%--FIN ENLAZADOS--%>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CantalupiBus - Administración</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="Formulario" runat="server">
+        <div id="imagenVolver"><asp:ImageButton ID="ImgVolver" runat="server" ImageUrl="~/Admin/MasterPage/Volver.png" PostBackUrl="~/Admin.aspx" Width="64px" CausesValidation="False"/></div>
+        <div id="TituloSis">SISTEMA DE ADMINISTRACIÓN CANTALUPIBUS</div>
+        
+        <br />
+
+        <div id="SesionUsuario"><asp:Label ID="lblSesion" runat="server" Text="" CssClass="SesionUsuario"></asp:Label></div>
+        
+        <br />
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+    </form>
+
+</body>
+</html>

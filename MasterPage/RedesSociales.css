@@ -1,0 +1,99 @@
+﻿.RedesSociales{
+    margin-top: 40px;
+    margin-right: 20px;
+    float: right;
+    width: auto;
+}
+
+.RedesSociales h6{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    color: yellow;
+    margin: 6px 10px;
+    float: left;
+    font-size: 14px;
+}
+.list-social-bar{
+    margin:auto;
+    padding:0;
+    float:left;
+
+}
+
+.list-social-bar > li{
+    list-style:none;
+    float:left;
+    margin-left:4px;
+}
+.list-social-bar > li:first-child{
+    margin:0;
+}
+
+.list-social-bar > li a{
+    background:url(RedesSociales.png) no-repeat;
+    width: 29px;
+    height: 29px;
+    display: block;
+    background-position: -3px -3px;
+}
+
+.list-social-bar > li .user:hover{
+    background-position: -3px -36px;
+}
+
+.list-social-bar > li .fb{
+    background-position: -36px -3px;
+}
+
+.list-social-bar > li .fb:hover{
+    background-position: -36px -36px;
+}
+
+.list-social-bar > li .twitter{
+    background-position: -69px -3px;
+}
+
+.list-social-bar > li .twitter:hover{
+    background-position: -69px -36px;
+}
+
+.list-social-bar > li .youtube{
+    background-position: -102px -3px;
+}
+
+.list-social-bar > li .youtube:hover{
+    background-position: -102px -36px;
+}
+
+.list-social-bar > li .gplus{
+    background-position: -136px -3px;
+}
+
+.list-social-bar > li .gplus:hover{
+    background-position: -136px -36px;
+}
+
+.list-social-bar > li .instagram{
+    background-position: -169px -3px;
+}
+
+.list-social-bar > li .instagram:hover{
+    background-position: -169px -36px;
+}
+
+.list-social-bar > li .mail{
+    background-position: -202px -3px;
+}
+
+.list-social-bar > li .mail:hover{
+    background-position: -202px -36px;
+}
+
+.list-social-bar > li .feed{
+    background-position: -235px -3px;
+}
+
+.list-social-bar > li .feed:hover{
+    background-position: -235px -36px;
+}
